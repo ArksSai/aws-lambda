@@ -23,5 +23,10 @@ Learning how to use aws lambda
 * 利用 api gateway
   *  通常使用 restful api 的形式來觸發
   *  在 serverless.yml 檔中的 functions 中規劃事件觸發方法
+  *  利用 api gateway 觸發 go-rds-proxy：
+  ![image](https://user-images.githubusercontent.com/51477633/131765599-b25dd34c-a5ed-48fa-92eb-90e8887a9136.png)
+  ![image](https://user-images.githubusercontent.com/51477633/131765650-42f07213-ea47-4e6b-afc5-7cdd8557d842.png)
+
+
 
 ref：https://qiita.com/maika_kamada/items/6eb6a40c17b4b8995acb
